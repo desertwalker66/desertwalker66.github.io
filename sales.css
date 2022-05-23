@@ -1,0 +1,48 @@
+body {
+  background-color: FloralWhite;
+}
+
+.heading {
+  color: white;
+  background-color: DimGrey;
+  text-align: center;
+  padding: 4px;
+  margin: 100px;
+}
+
+table {
+  border: 2px solid black;
+  width: 80%;
+  margin: 0 auto;
+  font-family: monospace;
+  text-align: justify;
+}
+
+thead {
+  background-color: Black;
+  text-align: center;
+  font-size: 20px;
+  color: White;
+}
+td {
+  border-top: 1px solid black;
+}
+
+.td_property {
+  text-align: left;
+  font-weight: 600;
+}
+
+.td_value {
+  text-align: left;
+  color: red;
+}
+
+.td_example {
+  text-align: left;
+}
+
+.td_notes {
+  text-align: left;
+  text-align: justify;
+}
