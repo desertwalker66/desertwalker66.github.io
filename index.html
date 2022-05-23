@@ -1,0 +1,121 @@
+<html>
+
+<head>
+  <title>Cheatsheet Challenge</title>
+</head>
+
+<body>
+  <div class="heading">
+    <h1>CSS FONT REFERENCE - font</h1>
+  </div>
+
+  <table>
+    <thead>
+      <th>Property</th>
+      <th>Value</th>
+      <th>Example</th>
+      <th>Special Notes</th>
+    </thead>
+    <tr>
+      <td class="td_property">font</td>
+      <td class="td_value">The font property specifies the font for an element.</td>
+      <td class="td_example">font: italic small-caps bold 12px/30px Georgia, serif;</td>
+      <td class="td_notes">Shorthand for style variant weight size/line family.</td>
+    </tr>
+    <tr>
+      <td class="td_property">@font-face</td>
+      <td class="td_value">With the @font-face rule, web designers do not have to use one of the "web-safe" fonts anymore.</td>
+      <td class="td_example">@font-face {font-family: myFirstFont;src: url(sansation_light.woff);}</td>
+      <td class="td_notes">You must first define a name for the font (e.g. myFirstFont), and then point to the font file.</td>
+    </tr>
+  </table>
+  <br><br>
+  <table>
+    <thead>
+      <th>Property</th>
+      <th>Value</th>
+      <th>Example</th>
+      <th>Special Notes</th>
+    </thead>
+    <tr>
+      <td class="td_property">family</td>
+      <td class="td_value">The font-family property specifies the font for an element.</td>
+      <td class="td_example">font-family: "Times New Roman", Times, serif;</td>
+      <td class="td_notes">2 types family-name - The name of a <b>font- family</b>.like "times", "courier", "arial".<b>generic-family:</b> like "serif", "sans-serif", "cursive", "fantasy", "monospace".</td>
+    </tr>
+    <tr>
+      <td class="td_property">feature-settings</td>
+      <td class="td_value">The font-feature-settings property allows control over advanced typographic features in OpenType fonts.</td>
+      <td class="td_example">/* enable small-caps */
+        .ex1 { font-feature-settings: "smcp" on; }</td>
+      <td class="td_notes">font-feature-settings: normal|feature-value;</td>
+    </tr>
+
+    <tr>
+      <td class="td_property">kerning</td>
+      <td class="td_value">Kerning defines how letters are spaced.</td>
+      <td class="td_example">font-kerning: auto|normal|none;</td>
+      <td class="td_notes">Fonts that do not include kerning data, this property will have no visible effect</td>
+    </tr>
+    <tr>
+      <td class="td_property">size</td>
+      <td class="td_value">The font-size property sets the size of a font.</td>
+      <td class="td_example"> font-size: 15px;</td>
+      <td class="td_notes">font-size:medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit;</td>
+    </tr>
+    <tr>
+      <td class="td_property">size-adjust</td>
+      <td class="td_value">The font-size-adjust property gives you better control of the font size when the first selected font is not available</td>
+      <td class="td_example">div {
+        font-size-adjust: 0.58;
+        }</td>
+      <td class="td_notes">font-size-adjust: number|none|initial|inherit;</td>
+    </tr>
+
+    <tr>
+      <td class="td_property">stretch</td>
+      <td class="td_value">The font-stretch property allows you to make text narrower (condensed) or wider (expanded).</td>
+      <td class="td_example">div {
+        font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+        font-stretch: expanded;
+        }</td>
+      <td class="td_notes">font-stretch:ultra-condensed|extra-condensed|condensed|semi-condensed|normal|semi-expanded|expanded|extra-expanded|ultra-expanded|initial|inherit;</td>
+    </tr>
+
+    <tr>
+      <td class="td_property">style</td>
+      <td class="td_value">The font-style property specifies the font style for a text.</td>
+      <td class="td_example">font-style: normal;</td>
+      <td class="td_notes">font-style: normal|italic|oblique|initial|inherit;</td>
+    </tr>
+
+    <tr>
+      <td class="td_property">variant</td>
+      <td class="td_value">The font-variant property specifies whether or not a text should be displayed in a small-caps font.</td>
+      <td class="td_example">p.small {
+        font-variant: small-caps;
+        }</td>
+      <td class="td_notes">font-variant: normal|small-caps|initial|inherit;</td>
+    </tr>
+
+    <tr>
+      <td class="td_property">variant-caps</td>
+      <td class="td_value">The font-variant-caps property controls the usage of alternate glyphs for capital letters.</td>
+      <td class="td_example">p.small {font-variant-caps: small-caps;}</td>
+      <td class="td_notes">font-variant-caps: normal|small-caps|all-small-caps|petite-caps|all-petite-caps|unicase|titling-caps|initial|inherit|unset;</td>
+    </tr>
+
+    <tr>
+      <td class="td_property">weight</td>
+      <td class="td_value">The font-weight property sets how thick or thin characters in text should be displayed.</td>
+      <td class="td_example">p.thick {
+        font-weight: bold;
+        }
+      </td>
+      <td class="td_notes">font-weight: normal|bold|bolder|lighter|number|initial|inherit; Nb: number = 400 900</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
